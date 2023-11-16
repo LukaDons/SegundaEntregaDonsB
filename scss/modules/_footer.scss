@@ -1,0 +1,81 @@
+footer {
+    display: grid;
+    background-color: $c-secundario;
+    height: 12rem;
+    width: 100vw;
+    padding-top: 2rem;
+    bottom: 0;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-areas:
+     "footerUno footerDos footerTres"
+    "footerCuatro footerCuatro footerCuatro";
+    
+    #footerUno {
+        grid-area: footerUno;
+        justify-self: right;
+        align-self: center;
+        padding: 0.5rem;
+
+        .footerIconos {
+            height: 7rem;
+        }
+    }
+    
+    #footerDos {
+        grid-area: footerDos;
+        justify-self: center;
+        align-self: center;
+        padding: 0.5rem;
+
+        .footerIconos {
+            height: 7rem;
+        }
+    }
+    
+    #footerTres {
+        grid-area: footerTres;
+        justify-self: left;
+        align-self: center;
+        padding: 0.5rem;
+
+        .footerIconos {
+            height: 7rem;
+        }
+    }
+    
+    #footerCuatro {
+        grid-area: footerCuatro;
+        align-self: center;
+        justify-self: center;
+        padding: 7px;
+    }
+}
+
+#indexFooter {
+    grid-area: indexFooter;
+}
+
+
+#skillsFooter {
+    grid-area: skillsFooter;
+   }
+
+#serviciosFooter {
+    grid-area: serviciosFooter;
+}
+
+#porfolioFooter {
+    grid-area: porfolioFooter;
+  }
+
+#contactFooter {
+    grid-area: contactFooter;
+  }
+
+#errorFooter {
+    grid-area: errorFooter;
+  }
+
+
+

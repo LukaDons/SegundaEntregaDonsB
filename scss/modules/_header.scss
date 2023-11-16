@@ -1,0 +1,251 @@
+#headerServicios {
+    margin: 0;
+    padding: 7px;
+    background-color: $c-principal;
+    @include nav-header
+}
+
+header {
+    background-color: rgba(68, 66, 66, 0.925);
+    align-items: center;
+    max-height: fit-content;
+}
+
+#indexHeader {
+    grid-area: indexHeader;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "indexHeaderUno indexHeaderDos";
+
+    #indexHeaderUno {
+        grid-area: indexHeaderUno;
+        display: flex;
+        align-items: center;
+    }
+    
+    #indexHeaderDos {
+        grid-area: indexHeaderDos;
+        padding:0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+    
+    }
+}
+
+#skillsHeader {
+    grid-area: skillsHeader;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "skillsHeaderUno skillsHeaderDos";
+
+    #skillsHeaderUno {
+        grid-area: skillsHeaderUno;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    #skillsHeaderDos {
+        grid-area: skillsHeaderDos;
+        padding:0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+    
+    }
+}
+
+#serviciosHeader {
+    grid-area: serviciosHeader;
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "serviciosHeaderUno serviciosHeaderDos";
+
+    #serviciosHeaderUno {
+        grid-area: serviciosHeaderUno;
+        display: flex;
+        align-items: center;
+    }
+
+    #serviciosHeaderDos {
+        grid-area: serviciosHeaderDos;
+        padding:0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+    
+    }
+}
+
+#porfolioHeader {
+    grid-area: porfolioHeader;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "porfolioHeaderUno porfolioHeaderDos";
+
+    #porfolioHeaderUno {
+        grid-area: porfolioHeaderUno;
+        display: flex;
+        align-items: center;
+      }
+
+      #porfolioHeaderDos {
+        grid-area: porfolioHeaderDos;
+        padding:0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+      }
+  }
+
+  #contactHeader {
+    grid-area: contactHeader;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "contactHeaderUno contactHeaderDos";
+
+    #contactHeaderUno {
+        grid-area: contactHeaderUno;
+        display: flex;
+        align-items: center;
+      }
+
+      #contactHeaderDos {
+        grid-area: contactHeaderDos;
+        padding:0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+      }
+  }
+
+  #errorHeader {
+    grid-area: errorHeader;
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "errorHeaderUno errorHeaderDos";
+
+    #errorHeaderUno {
+        grid-area: errorHeaderUno;
+        display: flex;
+        align-items: center;
+        font-size: 1.1rem;
+      }
+
+      #errorHeaderDos {
+        grid-area: errorHeaderDos;
+        padding:0 25px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .nav {
+            list-style: none;
+            display: flex;
+            gap: 15px; 
+        }
+
+        .nav-list {
+            list-style: none;
+            
+
+        }
+
+        .li {
+            float: left;
+        }
+      }
+  }
+

@@ -1,0 +1,7 @@
+@for $i from 1 through 6 {
+
+    #row#{$i} {
+        width: 100px;
+        font-size: 1rem;
+    }
+}
